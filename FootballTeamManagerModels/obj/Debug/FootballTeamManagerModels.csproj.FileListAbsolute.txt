@@ -1,0 +1,10 @@
+e:\My SW\MVC\FootballTeamManagerModels\FootballTeamManagerModels\bin\Debug\FootballTeamManagerModels.dll.config
+e:\My SW\MVC\FootballTeamManagerModels\FootballTeamManagerModels\bin\Debug\FootballTeamManagerModels.dll
+e:\My SW\MVC\FootballTeamManagerModels\FootballTeamManagerModels\bin\Debug\FootballTeamManagerModels.pdb
+e:\My SW\MVC\FootballTeamManagerModels\FootballTeamManagerModels\bin\Debug\EntityFramework.dll
+e:\My SW\MVC\FootballTeamManagerModels\FootballTeamManagerModels\bin\Debug\EntityFramework.SqlServer.dll
+e:\My SW\MVC\FootballTeamManagerModels\FootballTeamManagerModels\bin\Debug\EntityFramework.xml
+e:\My SW\MVC\FootballTeamManagerModels\FootballTeamManagerModels\bin\Debug\EntityFramework.SqlServer.xml
+e:\My SW\MVC\FootballTeamManagerModels\FootballTeamManagerModels\obj\Debug\FootballTeamManagerModels.csprojResolveAssemblyReference.cache
+e:\My SW\MVC\FootballTeamManagerModels\FootballTeamManagerModels\obj\Debug\FootballTeamManagerModels.dll
+e:\My SW\MVC\FootballTeamManagerModels\FootballTeamManagerModels\obj\Debug\FootballTeamManagerModels.pdb
