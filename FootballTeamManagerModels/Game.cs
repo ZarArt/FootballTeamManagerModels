@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace FootballTeamManagerModels
 {
@@ -14,7 +15,10 @@ namespace FootballTeamManagerModels
             GoalsScored = new HashSet<Goal>();
         }
         public int GameID { get; set; }
+        public int TournamentID { get; set; }
         public string Opponent { get; set; }
+        [DataType(DataType.DateTime)]
+        [DisplayFormat(DataFormatString = "{0:MM.dd.yyyy}", ApplyFormatInEditMode = true)]
         public DateTime Date { get; set; }
         public byte GoalsMissed { get; set; }
         public Result GameResult { get; set; }
@@ -25,8 +29,8 @@ namespace FootballTeamManagerModels
 
     public enum Result
     {
-        win,
-        draw,
-        lose
+        Win,
+        Draw,
+        Lose
     }
 }

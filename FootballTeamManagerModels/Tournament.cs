@@ -16,7 +16,8 @@ namespace FootballTeamManagerModels
         }
         public int TournamentID { get; set; }
         public string Name { get; set; }
-        [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd}", ApplyFormatInEditMode = true)]
+        [DataType(DataType.DateTime)]
+        [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime StartDate { get; set; }
         public virtual ICollection<Game> Games { get; set; }
         public virtual ICollection<Player> Players { get; set; }
